@@ -1,0 +1,223 @@
+.top{
+    width:100%;
+    height:80%;
+    padding: 45px 390px;
+    box-sizing: border-box;
+    display:flex;
+}
+.left {
+    width:360px;
+    height: 750px;
+}
+#insta-image{
+    width: 100%;
+    height: 77%;
+    margin-top: 75px;
+}
+.right{
+    width:330px;
+ 
+    margin-left: 25px;
+}
+.login{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    box-sizing: border-box;
+    border:1px solid #e6e6e6;
+}
+.instagram{
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.instagram span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#262626;
+    line-height: 40px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.signup-part{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+.signup-text{
+    font:17px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    color:#999999;
+    text-align: center;
+}
+
+
+.face{
+    width:250px;
+    height: 32px;
+    background-color:#3897f0;
+    margin: 18px 10px 0 10px;
+    font: 15px tahoma;
+    line-height: 18px;
+    color: white;
+    border-radius:5px;
+    border: 1px solid transparent;
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+
+}
+.fb{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    font-weight: bold;
+    color: #3897f0;
+    margin-right: 5px;
+
+}
+.or{
+    display: flex;
+    justify-content: center;
+    margin: 18px 0;
+    color:#999999;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.one{
+    width: 100px;
+    height: 7px;
+    border-bottom: 1px solid rgb(235, 231, 231);
+    margin-right: 10px;
+}
+.two{
+    width: 100px;
+    height: 7px;
+    border-bottom: 1px solid rgb(235, 231, 231);
+    margin-left: 10px;
+}
+input{
+    height:33px;
+    width:250px;
+    margin: 3px 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(245, 241, 241);
+    background-color:#fafafa; 
+    padding: 0 5px;
+    box-sizing: border-box;   
+}
+::placeholder{
+    color: rgb(180, 179, 179);
+}
+.signup{
+    width:250px;
+    height: 32px;
+    background-color:#3897f0;
+    margin: 14px;
+    line-height: 18px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+
+}
+.terms{
+    padding: 5px 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+p{
+    font-size:14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#999999;
+    line-height: 18px;
+    /* text-align: center; */
+}
+
+p span{
+    font-weight: 600;
+}
+
+
+.account{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    border:1px solid #e6e6e6;
+}
+
+.account a{
+    
+    text-decoration: none;
+    color: #3897f0;
+}
+.account p{
+    color: black;
+}
+.app{
+    width: 100%;
+    height: 90px;
+    margin-top: 5px;
+}
+.text{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text p{
+    color:#262626;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+.store{
+    width: 100%;
+    height: 50px;
+    display:inline-block;
+    margin: 15px;    
+    padding: 0 20px;
+    
+}
+.store img{
+    width:130px;
+    height: 40px; 
+}
+.bottom{
+    width:100% ;
+    height:100px;
+    padding: 20px 200px;
+    box-sizing: border-box; 
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.links a{
+    display:inline-block;
+    text-decoration: none;
+    margin:5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    color:#003569;    
+}
+
+.year p{
+    margin:5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    color:#003569;
+}
